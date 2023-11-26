@@ -15,7 +15,7 @@ body {
 .navbar {
   min-height: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   padding: 10px;
 }
@@ -37,7 +37,7 @@ body {
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #007fb7;
+  background-color: #000000;
 }
 /*-------------mobil---------------*/
 @media (max-width: 900px) {
@@ -80,6 +80,8 @@ body {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  border-right: #000000 2px solid;
+  padding-right: 1.8ch;
 }
 
 .nav-link:hover {
@@ -88,6 +90,7 @@ body {
 }
 header {
   border-bottom: 5px solid #000000;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -100,9 +103,14 @@ body {
   padding-bottom: 2ch;
   padding-left: 8ch;
   padding-right: 8ch;
+  background-image: url(backgroundimg.webp);
+  background-size: cover;
 }
 main {
   padding-top: 2ch;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding: 5px;
 }
 .grid_1fr-1fr-1fr {
   display: grid;
@@ -116,10 +124,8 @@ main {
   gap: 10.29px;
 }
 footer {
-  text-align: center;
   padding: 1ch;
-  border-bottom: 5px solid #000000;
   border-top: 5px solid #000000;
-  margin-top: 10px;
   font-size: 1.5cqw;
+  background-color: #ffffff;
 }
