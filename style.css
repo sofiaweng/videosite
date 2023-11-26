@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
 }
+
 body {
   font-family: "Archivo Black", sans-serif;
 }
@@ -97,6 +99,7 @@ h1 {
   font-family: "Archivo Black", sans-serif;
   font-size: 3.5cqw;
   padding-bottom: 20px;
+  padding: 10px;
 }
 body {
   padding-top: 2ch;
@@ -117,7 +120,11 @@ main {
   grid-template-columns: 1fr 2.5fr 1.5fr;
   gap: 10.29px;
 }
-
+.grid_1fr-1fr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 .grid_1fr {
   display: grid;
   padding-left: 1ch;
