@@ -74,6 +74,11 @@ body {
   .nav-menu.active {
     left: 0;
   }
+  body {
+    padding: 2ch;
+    background-image: url(backgroundimg.webp);
+    background-size: cover;
+  }
 }
 .navbar li {
   list-style: none;
@@ -101,13 +106,15 @@ h1 {
   padding-bottom: 20px;
   padding: 10px;
 }
-body {
-  padding-top: 2ch;
-  padding-bottom: 2ch;
-  padding-left: 8ch;
-  padding-right: 8ch;
-  background-image: url(backgroundimg.webp);
-  background-size: cover;
+@media (min-width: 900px) {
+  body {
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+    padding-left: 8ch;
+    padding-right: 8ch;
+    background-image: url(backgroundimg.webp);
+    background-size: cover;
+  }
 }
 main {
   padding-top: 2ch;
