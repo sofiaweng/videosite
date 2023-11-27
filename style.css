@@ -103,8 +103,27 @@ header {
 h1 {
   font-family: "Archivo Black", sans-serif;
   font-size: 3.5cqw;
-  padding-bottom: 20px;
-  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+p {
+  font-size: 1.7cqw;
+  padding-left: 10px;
+  font-style: italic;
+}
+.grid_3fr-1fr div {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.grid_3fr-1fr :first-child {
+  font-family: "Archivo Black", sans-serif;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 20px;
 }
 @media (min-width: 900px) {
   body {
@@ -123,6 +142,7 @@ main {
   padding: 5px;
 }
 .grid_1fr-1fr-1fr {
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 2.5fr 1.5fr;
   gap: 10.29px;
@@ -136,6 +156,13 @@ main {
   display: grid;
   padding-left: 1ch;
   gap: 10.29px;
+}
+.grid_3fr-1fr {
+  display: grid;
+  grid-template-columns: 3.6fr 1.5fr;
+  gap: 10.29px;
+  margin: 10px;
+  background-color: #d3e3ea;
 }
 footer {
   padding: 1ch;
